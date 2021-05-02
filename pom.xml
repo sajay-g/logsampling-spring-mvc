@@ -63,34 +63,7 @@
 					</excludes>
 				</configuration>
 			</plugin>
-			<plugin>
-				<groupId>com.microsoft.azure</groupId>
-				<artifactId>azure-webapp-maven-plugin</artifactId>
-				<version>1.9.1</version>
-				<configuration>
-					<schemaVersion>V2</schemaVersion>
-					<resourceGroup>ct-n-zeaus-cnctme-rg</resourceGroup>
-					<appName>Java-Log4j-ConsLog-Dev</appName>
-					<pricingTier>P1v2</pricingTier>
-					<region>eastus</region>
-					<runtime>
-						<os>windows</os>
-						<javaVersion>1.8</javaVersion>
-						<webContainer>java 8</webContainer>
-					</runtime>
-
-					<deployment>
-						<resources>
-							<resource>
-								<directory>${project.basedir}/target</directory>
-								<includes>
-									<include>*.jar</include>
-								</includes>
-							</resource>
-						</resources>
-					</deployment>
-				</configuration>
-			</plugin>
+			
 
 		</plugins>
 
