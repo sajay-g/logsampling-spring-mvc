@@ -1,5 +1,5 @@
-# Reference porject logsampling-spring-mvc
+# Reference porject with spring-mvc and log4j2 (Non Spring Boot Project)
 # 
-# Non Spring Boot Project
-# Logging with log4j2 and json layout as console appenders
+# log4j2 with json layout as console appenders
+# File Appenders with policy
 
